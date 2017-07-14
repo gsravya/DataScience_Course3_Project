@@ -1,9 +1,12 @@
 # DataScience_Course3_Project
 The objective is to clean and tidy up the raw datasets into a neat dataset ready for analysis.
 
-This repo contains the R script 'run_analysis.R' that tidies up the raw data from different files and creates a clean dataset 'final_ds.txt' which s ready to be analyzed. The following are the steps that are followed to arrive at the tidy set:
+This repo contains the R script 'run_analysis.R' that tidies up the raw data from different files and creates a clean dataset 'final_ds.txt' which is ready to be analyzed. The following are the steps that are followed to arrive at the tidy set:
 
-1. All the files are read using 'read.table()' function
+* X, y and subject files from train and test folders are read correspondingly. The 561 columns in X tables are named from the 'features.txt' file.
+* fhbsdk
+1. 
+All the files are read using 'read.table()' function
 2. To merge train and test data sets, train and test datasets are assembled separately and merged using rbind with train being the first part of the merged dataset and the test being the last part.
   2.1 Train dataset is created by binding the columns in the order: total_acc_x_train, total_acc_y_train, total_acc_z_train, 
                                                                     body_acc_x_train, body_acc_y_train, body_acc_z_train, 
