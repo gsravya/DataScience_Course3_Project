@@ -3,6 +3,7 @@
 This is a codebook that gives information about the information about the variables used in the dataset. The 'final_ds.txt' file has 180 rows and 88 columns. The columns are "subject", "activity" and 86 other columns, which are described below:
 
 tBodyAcc-mean()-X
+
 tBodyAcc-mean()-Y
 tBodyAcc-mean()-Z
 tBodyAcc-std()-X
