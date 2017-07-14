@@ -1,7 +1,7 @@
 # DataScience_Course3_Project
 The objective is to clean and tidy up the raw datasets into a neat dataset ready for analysis.
 
-This repo contains the R script 'run_analysis.R' that tidies up the raw data from different files and creates a clean dataset 'final_ds.txt' which is ready to be analyzed. The following are the steps that are followed to arrive at the tidy set:
+This repo contains the R script 'run_analysis.R' that tidies up the raw data from different files and creates a clean dataset 'final_ds.txt' which is ready to be analyzed. It also has a codebook named 'Codebook.md' that gives information about the variables in the dataset. The following are the steps that are followed to arrive at the tidy set:
 
 * X, y (activity label) and subject files from train and test folders are read correspondingly. The 561 columns in X tables are named from the 'features.txt' file.
 * A training set datafrane is created by column binding the train subject, y and X dataframes in that order. A test set is also created similarly.
